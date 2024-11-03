@@ -51,9 +51,9 @@ CLASS zcl_ahr_ac2_lab_01_ejec IMPLEMENTATION.
 
 *    lo_student->birthdate = '20241102'.
 
-    zcl_ahr_ac2_lab_08_work_record=>open_new_record( iv_date = '19780330'
-                                                     iv_first_name = 'Armando'
-                                                     iv_last_name  = 'Hernández'
+    zcl_ahr_ac2_lab_08_work_record=>open_new_record( iv_date = '20241102'
+                                                     iv_first_name = 'Angel'
+                                                     iv_last_name  = 'Fernández'
                                                      ).
 
     DATA(lo_account) = NEW zcl_ahr_ac2_lab_09_account(  ).
