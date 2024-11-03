@@ -13,12 +13,9 @@ CLASS zcl_ahr_ac2_lab_02_product DEFINITION
 
     DATA:
       product       TYPE matnr,
-*      creation_date TYPE ZDATE.
-      creation_date TYPE d.
+      creation_date TYPE zde_ahr_ac2_date.
 
 ENDCLASS.
-
-
 
 CLASS zcl_ahr_ac2_lab_02_product IMPLEMENTATION.
 
