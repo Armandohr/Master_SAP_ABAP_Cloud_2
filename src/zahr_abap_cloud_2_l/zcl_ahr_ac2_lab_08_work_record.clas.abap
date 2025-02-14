@@ -24,7 +24,10 @@ CLASS zcl_ahr_ac2_lab_08_work_record DEFINITION
 
 ENDCLASS.
 
-CLASS zcl_ahr_ac2_lab_08_work_record IMPLEMENTATION.
+
+
+CLASS ZCL_AHR_AC2_LAB_08_WORK_RECORD IMPLEMENTATION.
+
 
   METHOD open_new_record.
 
@@ -34,5 +37,4 @@ CLASS zcl_ahr_ac2_lab_08_work_record IMPLEMENTATION.
     surname = iv_surname.
 
   ENDMETHOD.
-
 ENDCLASS.

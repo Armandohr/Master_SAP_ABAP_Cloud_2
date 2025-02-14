@@ -18,14 +18,17 @@ CLASS zcl_ahr_ac2_lab_09_account DEFINITION
 
 ENDCLASS.
 
-CLASS zcl_ahr_ac2_lab_09_account IMPLEMENTATION.
+
+
+CLASS ZCL_AHR_AC2_LAB_09_ACCOUNT IMPLEMENTATION.
+
 
   METHOD get_iban.
     iban = me->iban.
   ENDMETHOD.
 
+
   METHOD set_iban.
     me->iban = iban.
   ENDMETHOD.
-
 ENDCLASS.

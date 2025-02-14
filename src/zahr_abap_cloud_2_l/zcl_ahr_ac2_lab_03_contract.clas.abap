@@ -25,12 +25,12 @@ ENDCLASS.
 
 
 
-CLASS zcl_ahr_ac2_lab_03_contract IMPLEMENTATION.
+CLASS ZCL_AHR_AC2_LAB_03_CONTRACT IMPLEMENTATION.
+
 
   METHOD set_creation_date.
 
     me->creation_date = iv_creation_date.
 
   ENDMETHOD.
-
 ENDCLASS.

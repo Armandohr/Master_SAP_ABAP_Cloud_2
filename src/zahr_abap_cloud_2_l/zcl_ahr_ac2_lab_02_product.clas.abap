@@ -17,7 +17,9 @@ CLASS zcl_ahr_ac2_lab_02_product DEFINITION
 
 ENDCLASS.
 
-CLASS zcl_ahr_ac2_lab_02_product IMPLEMENTATION.
+
+
+CLASS ZCL_AHR_AC2_LAB_02_PRODUCT IMPLEMENTATION.
 
 
   METHOD set_creationdate.
@@ -26,10 +28,10 @@ CLASS zcl_ahr_ac2_lab_02_product IMPLEMENTATION.
 
   ENDMETHOD.
 
+
   METHOD set_product.
 
     me->product = iv_product.
 
   ENDMETHOD.
-
 ENDCLASS.

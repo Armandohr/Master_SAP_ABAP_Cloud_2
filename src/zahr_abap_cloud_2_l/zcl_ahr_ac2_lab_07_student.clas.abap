@@ -17,10 +17,12 @@ CLASS zcl_ahr_ac2_lab_07_student DEFINITION
 
 ENDCLASS.
 
-CLASS zcl_ahr_ac2_lab_07_student IMPLEMENTATION.
+
+
+CLASS ZCL_AHR_AC2_LAB_07_STUDENT IMPLEMENTATION.
+
 
   METHOD set_birthdate.
     me->birthdate = iv_birthdate.
   ENDMETHOD.
-
 ENDCLASS.

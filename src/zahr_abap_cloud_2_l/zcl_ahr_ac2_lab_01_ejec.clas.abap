@@ -10,7 +10,10 @@ CLASS zcl_ahr_ac2_lab_01_ejec DEFINITION
 
 ENDCLASS.
 
-CLASS zcl_ahr_ac2_lab_01_ejec IMPLEMENTATION.
+
+
+CLASS ZCL_AHR_AC2_LAB_01_EJEC IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -68,5 +71,4 @@ CLASS zcl_ahr_ac2_lab_01_ejec IMPLEMENTATION.
     out->write( zcl_ahr_ac2_lab_10_constructor=>log ).
 
   ENDMETHOD.
-
 ENDCLASS.

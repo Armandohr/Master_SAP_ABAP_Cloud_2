@@ -15,7 +15,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_ahr_ac2_lab_05_flight IMPLEMENTATION.
+CLASS ZCL_AHR_AC2_LAB_05_FLIGHT IMPLEMENTATION.
+
 
   METHOD check_flight.
 
@@ -32,5 +33,4 @@ CLASS zcl_ahr_ac2_lab_05_flight IMPLEMENTATION.
     ENDIF.
 
   ENDMETHOD.
-
 ENDCLASS.

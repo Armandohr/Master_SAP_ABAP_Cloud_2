@@ -32,12 +32,14 @@ CLASS zcl_ahr_ac2_lab_06_elements DEFINITION
 
 ENDCLASS.
 
-CLASS zcl_ahr_ac2_lab_06_elements IMPLEMENTATION.
+
+
+CLASS ZCL_AHR_AC2_LAB_06_ELEMENTS IMPLEMENTATION.
+
 
   METHOD set_object.
 
     me->ms_object = is_object.
 
   ENDMETHOD.
-
 ENDCLASS.
